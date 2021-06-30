@@ -1,0 +1,6 @@
+{
+  "ignore": ["node_modules"],
+  "watch": ["src/main"],
+  "exec": "tsc -p ./tsconfig.main.json && electron ./dist/index.js",
+  "ext": "ts"
+}
